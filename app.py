@@ -223,7 +223,9 @@ if uploaded_file is not None:
         st.session_state["last_uploaded_file"] = uploaded_file.name
         st.session_state["continue_after_validation_warning"] = False
 
-    temp_path = "temp/temp_img.jpg"
+    temp_dir = "temp"
+    os.makedirs(temp_dir, exist_ok=True)
+    temp_path = os.path.join(temp_dir, "temp_img.jpg")
     with open(temp_path, "wb") as f:
         f.write(uploaded_file.getbuffer())
 
