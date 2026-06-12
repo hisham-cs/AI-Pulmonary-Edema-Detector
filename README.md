@@ -131,7 +131,7 @@ The training dataset is **not included** in this repository. The application per
 
 ## 👥 Contributors
 
-* **Hisham Abdullah Saleh Al-Malki**
+* **Hisham AlMalki**
 * **Ali Almufarriji**
 * **Saleh Alsulami**
 
